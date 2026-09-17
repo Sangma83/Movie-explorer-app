@@ -14,7 +14,7 @@ const Navbar = () => {
       </div>
 
       <div>
-        <button className="btn btn-primary rounded-2xl btn-sm">
+        <button className="btn btn-primary rounded-2xl btn-md">
           <MdOutlineImageSearch />
           Explore Movies
         </button>
