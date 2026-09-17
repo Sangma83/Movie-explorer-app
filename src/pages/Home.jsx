@@ -1,13 +1,14 @@
 import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
-import heroImg from "../assets/hero.jpg"
+import heroImg from "../assets/hero2.png"
 import { AiOutlineRise } from "react-icons/ai";
 
 
 const Home = () => {
   return (
     <>
-    <Navbar/>
+ <div className="max-w-[1800px] mx-auto">
+     <Navbar/>
  <div
   className="hero min-h-screen"
   style={{
@@ -16,7 +17,7 @@ const Home = () => {
     `url(${heroImg})`
   }}
 >
-  <div className="hero absolute inset-0 bg-gradient-to-r from-black/95 via-black/40 to-transparent"></div>
+  <div className="hero max-w-[1800px] mx-auto absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent"></div>
 <div className="hero-content text-neutral-content text-left justify-start items-end w-full px-5 sm:px-8 md:px-12 lg:px-20 py-16 sm:py-20 md:py-24">
   <div className="w-full max-w-2xl">
     <p className="uppercase bg-gradient-to-b from-violet-500 to-cyan-300 bg-clip-text text-transparent font-extrabold mb-3 sm:mb-5 text-sm sm:text-base md:text-lg">
@@ -43,6 +44,7 @@ const Home = () => {
 </div>
 </div>
     <Footer/>
+ </div>
     </>
   )
 }

@@ -3,7 +3,7 @@ import { MdOutlineImageSearch } from "react-icons/md";
 
 const Navbar = () => {
   return (
-    <div className="navbar justify-between bg-[#090914] text-white px-5 py-3 shadow-sm absolute top-0 z-20 w-ful">
+    <div className="max-w-[1800px] mx-auto navbar justify-between bg-[#090914] text-white px-5 py-3 shadow-sm absolute top-0 z-20 w-ful">
       
       <div className="flex items-center gap-2">
         <FcClapperboard className="text-4xl" />
