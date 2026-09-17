@@ -19,12 +19,12 @@ const Home = () => {
     `url(${heroImg})`
   }}
 >
-  <div className="hero-overlay"></div>
-  <div className="hero-content text-neutral-content mt-120">
+  <div className="hero absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent"></div>
+  <div className="hero-content text-neutral-content text-left justify-start items-end w-full mt-50 me-100">
     <div>
-        <p className="uppercase bg-gradient-to-t from-violet-600 to-cyan-300 bg-clip-text text-transparent font-extrabold shadow-2xl">Welcome to Movie Explorer</p>
-      <h1 className="text-6xl font-extrabold">Discover <br/> <span className="bg-gradient-to-b from-violet-900 to-cyan-500 bg-clip-text text-transparent shadow-black">Amazing Movies</span></h1>
-      <p className="py-6 text-2xl">
+        <p className="uppercase bg-gradient-to-b from-violet-500 to-cyan-300 bg-clip-text text-transparent font-extrabold shadow-2xl mb-5">Welcome to Movie Explorer</p>
+      <h1 className="text-7xl font-extrabold">Discover <br/> <span className="bg-gradient-to-b from-violet-900 to-cyan-500 bg-clip-text text-transparent shadow-black">Amazing Movies</span></h1>
+      <p className="py-6 text-2xl mt-5">
         Explore and discover your favorite movies from around the world.Find new releases,trending hits and timeless classics - all in one place.
       </p>
       <button className="btn btn-primary rounded-2xl"><AiOutlineRise />Explore Now</button>
