@@ -4,7 +4,7 @@ Movie Explorer is a responsive web application where users can browse movies and
 
 ## 🌐 Live Demo
 
-🔗 **Live Website:** [Add Your Vercel/Netlify Link Here]
+🔗 **Live Website:** https://movie-explorer-app-pied.vercel.app/
 
 🔗 **GitHub Repository:** [Add Your GitHub Repository Link Here]
 
