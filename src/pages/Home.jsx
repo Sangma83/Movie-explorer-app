@@ -7,9 +7,7 @@ import { Link } from "react-router";
 
 const Home = () => {
   return (
-    <>
- <div className="">
-    
+    <>   
  <section
   className="hero min-h-screen"
   style={{
@@ -44,8 +42,6 @@ const Home = () => {
   </div>
 </div>
 </section>
-   
- </div>
     </>
   )
 }

@@ -90,18 +90,18 @@ function Movies() {
   };
 
   return (
-    <div className=" bg-base-100">
+    <div className="min-h-screen bg-gradient-to-r from-pink-200 to-cyan-700">
      
 
       <section className="pt-24 px-4 pb-10 md:px-8 lg:px-12">
         <div className="mx-auto max-w-7xl">
 
           <div className="mb-10 text-center">
-            <h1 className="text-4xl font-bold md:text-5xl">
+            <h1 className="text-4xl text-white font-bold md:text-5xl">
               Explore Movies
             </h1>
 
-            <p className="mt-3 text-base-content/60">
+            <p className="mt-3 text-white">
               Search for your favorite movies and discover new shows.
             </p>
           </div>
