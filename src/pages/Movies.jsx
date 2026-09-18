@@ -23,7 +23,7 @@ function Movies() {
       const data = await response.json();
       setMovies(data);
     } catch (error) {
-      setError("Something went wrong. Please try again.");
+      setError("Something went wrong. Please try again.", error);
     } finally {
       setLoading(false);
     }
@@ -53,7 +53,7 @@ function Movies() {
 
       setMovies(searchResults);
     } catch (error) {
-      setError("Search failed. Please try again.");
+      setError("Search failed. Please try again.", error);
     } finally {
       setLoading(false);
     }
@@ -75,7 +75,7 @@ function Movies() {
 
         setMovies(data);
       } catch (error) {
-        setError("Something went wrong. Please try again.");
+        setError("Something went wrong. Please try again.", error);
       } finally {
         setLoading(false);
       }
