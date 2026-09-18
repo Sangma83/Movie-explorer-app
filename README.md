@@ -6,7 +6,7 @@ Movie Explorer is a responsive web application where users can browse movies and
 
 🔗 **Live Website:** https://movie-explorer-app-pied.vercel.app/
 
-🔗 **GitHub Repository:** [Add Your GitHub Repository Link Here]
+🔗 **GitHub Repository:** https://github.com/Sangma83/Movie-explorer-app
 
 ## ✨ Features
 
@@ -86,5 +86,3 @@ The application is optimized for:
 **Poushali Sangma**
 
 🔗 GitHub: https://github.com/Sangma83
-
-🔗 Live link: https://movie-explorer-app-pied.vercel.app/
