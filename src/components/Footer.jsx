@@ -47,9 +47,11 @@ const Footer = () => {
 
       <footer className="footer sm:footer-horizontal footer-center bg-[#05050c] text-gray-500 p-4 border-t border-violet-900/20">
         <aside>
-          <p>
-            Copyright © {new Date().getFullYear()} - All rights reserved by
-            Movie Explorer
+          <p className="flex justify-center">
+            Copyright © {new Date().getFullYear()} - All rights reserved by <FcClapperboard className="text-xl mx-1" />
+                  <a className="font-extrabold">
+                    Movie<span className="text-blue-600">Explorer</span>
+                  </a>  
           </p>
         </aside>
       </footer>

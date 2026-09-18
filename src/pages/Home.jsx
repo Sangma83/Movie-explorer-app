@@ -1,15 +1,16 @@
-import Footer from "../components/Footer"
-import Navbar from "../components/Navbar"
+// import Footer from "../components/Footer"
+// import Navbar from "../components/Navbar"
 import heroImg from "../assets/hero2.png"
 import { AiOutlineRise } from "react-icons/ai";
+import { Link } from "react-router";
 
 
 const Home = () => {
   return (
     <>
- <div className="max-w-[1800px] mx-auto">
-     <Navbar/>
- <div
+ <div className="">
+    
+ <section
   className="hero min-h-screen"
   style={{
     backgroundImage:
@@ -36,14 +37,14 @@ const Home = () => {
       new releases, trending hits and timeless classics - all in one place.
     </p>
 
-    <button className="btn btn-primary rounded-2xl btn-sm sm:btn-md">
+    <Link to="/movies" className="btn btn-primary mt-7">
       <AiOutlineRise />
       Explore Now
-    </button>
+    </Link>
   </div>
 </div>
-</div>
-    <Footer/>
+</section>
+   
  </div>
     </>
   )
