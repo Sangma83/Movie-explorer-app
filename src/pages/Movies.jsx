@@ -90,10 +90,10 @@ function Movies() {
   };
 
   return (
-    <div className="min-h-screen bg-base-100">
+    <div className=" bg-base-100">
      
 
-      <main className="px-4 py-10 md:px-8 lg:px-12">
+      <section className="pt-24 px-4 pb-10 md:px-8 lg:px-12">
         <div className="mx-auto max-w-7xl">
 
           <div className="mb-10 text-center">
@@ -155,7 +155,7 @@ function Movies() {
             </div>
           )}
         </div>
-      </main>
+      </section>
 
       <MovieModal
         movie={selectedMovie}
