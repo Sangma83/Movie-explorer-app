@@ -1,16 +1,90 @@
-# React + Vite
+# 🎬 Movie Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Movie Explorer is a responsive web application where users can browse movies and TV shows, search for their favorite titles, and explore detailed information about each show.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Live Website:** [Add Your Vercel/Netlify Link Here]
 
-## React Compiler
+🔗 **GitHub Repository:** [Add Your GitHub Repository Link Here]
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Responsive and user-friendly interface
+- Browse movies and TV shows
+- Search shows by title
+- Display movie/show posters
+- Show ratings and release dates
+- View detailed information in a modal
+- Display genres and summaries
+- Loading and error states
+- Responsive design for mobile, tablet, and desktop
+- Navigation using React Router
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- React.js
+- JavaScript
+- React Router
+- Tailwind CSS
+- DaisyUI
+- React Icons
+- Vite
+- TVMaze API
+
+## 🔗 API
+
+This project uses the **TVMaze API** to fetch movie and TV show information.
+
+**API:** https://www.tvmaze.com/api
+
+## 📄 Pages
+
+### 🏠 Home
+
+The Home page includes:
+
+- Navigation bar
+- Movie Explorer branding
+- Hero banner
+- Short description
+- Explore Movies button
+- Footer
+
+### 🎬 Movies
+
+The Movies page allows users to:
+
+- Browse available shows
+- Search for specific titles
+- View ratings and release dates
+- See show posters
+- Open detailed information
+
+### 📖 Movie Details
+
+Users can click **See Details** to view:
+
+- Large poster
+- Title
+- Rating
+- Release date
+- Genres
+- Summary
+
+## 📱 Responsive Design
+
+The application is optimized for:
+
+- Mobile
+- Tablet
+- Laptop
+- Desktop
+
+## 👩‍💻 Author
+
+**Poushali Sangma**
+
+🔗 GitHub: https://github.com/Sangma83
+
+🔗 Live link: https://movie-explorer-app-pied.vercel.app/
